@@ -174,18 +174,6 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to Design Wireframe and prototype in Figma.</>,
-        images: [
-          {
-            src: "/images/projects/project-01/Figma.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
         title: "React JS",
         description: <>Building next gen apps with ReactJS.</>,
         images: [
@@ -197,6 +185,19 @@ const about = {
           },
         ],
       },
+      {
+        title: "Figma",
+        description: <>Able to Design Wireframe and prototype in Figma.</>,
+        images: [
+          {
+            src: "/images/projects/project-01/Figma.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      
     ],
   },
 };
