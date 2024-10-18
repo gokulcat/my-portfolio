@@ -162,23 +162,13 @@ const about = {
     title: "Education",
     institutions: [
       {
-        name: (
-          <>
-            Pondicherry Engineering
-            <br />
-            College
-          </>
-        ),
+        name: "Pondicherry Engineering College",
+         
         description: <>Studied Electronics and Communication engineering.</>,
       },
       {
-        name: (
-          <>
-            Amalorpavam Higher
-            <br />
-            Secondary School
-          </>
-        ),
+        name: 
+            "Amalorpavam Higher Secondary School ",
         description: <>Studied SSLC and HSC (TamilNadu Board Education).</>,
       },
     ],
