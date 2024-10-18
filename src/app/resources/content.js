@@ -1,4 +1,5 @@
 import { InlineCode } from "@/once-ui/components";
+import { display } from "./config";
 
 const person = {
   firstName: "Gokul",
@@ -50,8 +51,9 @@ const home = {
   headline: <>ReactJS Developer</>,
   subline: (
     <>
-      I'm Gokul, a UI/UX engineer at
-      <InlineCode>Infosys technologies Limited</InlineCode>.
+      I'm Gokul, a former UI/UX engineer at
+      <InlineCode>Infosys Technologies Limited</InlineCode>. I am currently open
+      to new opportunities and actively seeking jobs in India.
     </>
   ),
 };
@@ -76,10 +78,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Gokul is a UI/UX design engineer with a passion for transforming complex
-        challenges into simple, elegant design solutions. My work spans digital
-        interfaces, interactive experiences, and the convergence of design and
-        technology.
+        Gokul is a UI/UX design engineer driven by a passion for crafting
+        simple, elegant solutions to complex challenges. My work encompasses
+        digital interfaces, interactive experiences, and the fusion of design
+        and technology.
       </>
     ),
   },
@@ -157,15 +159,27 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "Pondicherry Engineering College",
+        name: (
+          <>
+            Pondicherry Engineering
+            <br />
+            College
+          </>
+        ),
         description: <>Studied Electronics and Communication engineering.</>,
       },
       {
-        name: "Amalorpavam Higher Secondary School",
-        description: <>Studied SSLC and HSC(TamilNadu Board Education).</>,
+        name: (
+          <>
+            Amalorpavam Higher
+            <br />
+            Secondary School
+          </>
+        ),
+        description: <>Studied SSLC and HSC (TamilNadu Board Education).</>,
       },
     ],
   },
@@ -197,7 +211,6 @@ const about = {
           },
         ],
       },
-      
     ],
   },
 };
@@ -226,4 +239,4 @@ const gallery = {
   images: [],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work, gallery};
